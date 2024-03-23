@@ -1,0 +1,29 @@
+/*CSS*/
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.contact-div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-div h2 {
+    color: #28a745;
+}
+
+#logo{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}

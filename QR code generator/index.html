@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logoQr.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <div class="container">
+        <img id="logo" src="logoQr.jpg" alt=""><h1>QR CODE GENERATOR</h1>
+        <br><br>
+        <p>Enter your Text or URL</p>
+        <input id="qrText" type="text" placeholder="Text or URL"><br>
+        <div id="qr-box">
+            <img id="qr-img" src="">
+        </div>
+        <button onclick="generateQR()">Generate QR Code</button>
+    </div>
+    <div class="popup" id="popup">
+        <img src="404-tick.png">
+        <h2>Generated!</h2>
+        <p>Your QR code is generated</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+<script src="main.js"></script>
+
+</body>
+</html>

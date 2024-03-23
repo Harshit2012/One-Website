@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Clogo.jpg">
+</head>
+<body>
+    <div class="container text-center">
+        <img id="logo" src="Clogo.jpg">
+        <h1 class="mt-2">Contact Form</h1>
+        <div id="contactDiv" class="contact-div">
+            <h2>Write Form</h2>
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7e4ab69a-708f-447e-9186-ab0f8826215d">
+                <input type="text" name="name" class="form-control" id="name" placeholder="User Name" required>
+                <br>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                <br>
+                <textarea class="form-control" id="message" placeholder="Write" rows="4" required></textarea>
+                <br>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>

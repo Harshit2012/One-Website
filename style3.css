@@ -1,0 +1,181 @@
+body{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    position: sticky;
+}
+
+#intro{
+    background-image: url(website.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#agecw{
+    height: 400px;
+    background-image: url(agecw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#analogcw{
+    height: 400px;
+    background-image: url(analogc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Cheatsheetw{
+    height: 400px;
+    background-image: url(cheatsheetw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Contactfw{
+    height: 400px;
+    background-image: url(contactfw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Currencycw{
+    height: 400px;
+    background-image: url(currencycw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Digitalcw{
+    height: 400px;
+    background-image: url(digitalcw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Musicalw{
+    height: 400px;
+    background-image: url(musicalw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Passwordscw{
+    height: 400px;
+    background-image: url(passwordscw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Qrcgw{
+    height: 400px;
+    background-image: url(Qrcgw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#quiz{
+    height: 400px;
+    background-image: url(quiz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Quotegw{
+    height: 400px;
+    background-image: url(qoutegw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Randompgw{
+    height: 400px;
+    background-image: url(passwordscw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Voicettcw{
+    height: 400px;
+    background-image: url(voicettcw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Weatherww{
+    height: 400px;
+    background-image: url(weatherww.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.opens{
+    margin-top: 250px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#back{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#motto{
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+::-webkit-scrollbar-track{
+	background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#642bff, #ff22e6);
+	border-radius: 20px;
+}

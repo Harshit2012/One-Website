@@ -1,0 +1,102 @@
+body{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+#intro{
+    background-image: url(background.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  position: sticky;
+}
+
+#motto{
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#game{
+    height: 400px;
+    background-image: url(game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#play_button{
+    margin-top: 300px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+#play_button:hover {
+  background-color: #2980b9;
+}
+  
+#play_button:active {
+  transform: scale(0.95);
+}
+
+#websites{
+    height: 400px;
+    background-image: url(website.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#open_button{
+  margin-top: 300px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+  
+#open_button:hover {
+  background-color: #2980b9;
+}
+  
+#open_button:active {
+  transform: scale(0.95);
+}
+
+::-webkit-scrollbar{
+	width: 15px;
+}
+
+::-webkit-scrollbar-track{
+	background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#642bff, #ff22e6);
+	border-radius: 20px;
+}
