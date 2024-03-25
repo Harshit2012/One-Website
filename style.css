@@ -26,12 +26,6 @@ body{
   position: sticky;
 }
 
-#motto{
-    margin-top: 250px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 #game{
     height: 400px;
     background-image: url(game.jpg);
@@ -88,15 +82,38 @@ body{
   transform: scale(0.95);
 }
 
+#motto{
+  font-size: 20px;
+  margin-top: 200px;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* dynamic styling*/
+
 ::-webkit-scrollbar{
-	width: 15px;
+width: 15px;
 }
 
 ::-webkit-scrollbar-track{
-	background: #d1e5ff;
+background: #d1e5ff;
 }
 
 ::-webkit-scrollbar-thumb{
-	background: linear-gradient(#642bff, #ff22e6);
-	border-radius: 20px;
+background: linear-gradient(#642bff, #ff22e6);
+border-radius: 20px;
+}
+
+@keyframes typing {
+ from { width: 0 }
+ to { width: 300px }
+}
+   
+@keyframes blink-caret {
+ from, to { border-color: transparent }
+ 50% { border-color: orange; }
 }
