@@ -57,3 +57,157 @@ function open_weatherww(){
 function back(){
     window.location = "index.html"
 }
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic2');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic3');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic4');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic5');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic6');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic7');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic8');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic9');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic10');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic11');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic12');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic13');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const text = document.querySelector('.topic14');
+    const textPosition = text.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+    if(textPosition < screenPosition){
+      text.classList.add('visible');
+    } else {
+      text.classList.remove('visible');
+    }
+});
