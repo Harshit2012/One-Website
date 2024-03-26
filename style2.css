@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Edu NSW ACT Foundation", cursive;
     font-optical-sizing: auto;
     color: white;
@@ -8,7 +8,7 @@ body{
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
-#logo{
+#logo {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -17,7 +17,7 @@ body{
     position: sticky;
 }
 
-#intro{
+#intro {
     background-image: url(game.jpg);
     margin: 0;
     height: 500px;
@@ -27,7 +27,7 @@ body{
     background-position: center;
 }
 
-#playt{
+#playt {
     height: 400px;
     background-image: url(tictactoeimg.jpg);
     background-size: cover;
@@ -35,7 +35,7 @@ body{
     background-position: center;
 }
 
-#plays{
+#plays {
     height: 400px;
     background-image: url(snake_game.jpg);
     background-size: cover;
@@ -43,7 +43,7 @@ body{
     background-position: center;
 }
 
-#back{
+#back {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #3498db;
@@ -54,7 +54,7 @@ body{
     outline: none;
 }
 
-.playgame{
+.playgame {
     margin-top: 250px;
     padding: 10px 20px;
     background-color: #3498db;
@@ -66,7 +66,7 @@ body{
     transition: background-color 0.3s, transform 0.2s;
 }
 
-#motto{
+#motto {
     font-size: 20px;
     margin-top: 200px;
     overflow: hidden;
@@ -79,47 +79,59 @@ body{
 
 /* dynamic styling*/
 
-::-webkit-scrollbar{
-	width: 15px;
+::-webkit-scrollbar {
+    width: 15px;
 }
 
-::-webkit-scrollbar-track{
-	background: #d1e5ff;
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
 }
 
-::-webkit-scrollbar-thumb{
-	background: linear-gradient(#642bff, #ff22e6);
-	border-radius: 20px;
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 20px;
 }
 
 @keyframes typing {
-   from { width: 0 }
-   to { width: 300px }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 300px
+    }
 }
-     
+
 @keyframes blink-caret {
-   from, to { border-color: transparent }
-   50% { border-color: orange; }
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
 }
 
-.topic{
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s, transform 0.6s;
+.topic {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s, transform 0.6s;
 }
 
-.topic.visible{
-  opacity: 1;
-  transform: translateY(0px);
+.topic.visible {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
-.topic2{
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s, transform 0.6s;
+.topic2 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s, transform 0.6s;
 }
-  
-.topic2.visible{
-  opacity: 1;
-  transform: translateY(0px);
+
+.topic2.visible {
+    opacity: 1;
+    transform: translateY(0px);
 }
