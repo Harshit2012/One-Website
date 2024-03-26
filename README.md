@@ -4,6 +4,10 @@ A website that provide various games and websites.
 - HTML
 - CSS
 - JS
+## Features
+- Easy to use
+- Dynamic styling with dynamic scroll bar
+- Provide more than 10 websites
 ## Preview
 - First Page
 ![Screenshot (22)](https://github.com/Harshit2012/One-Website/assets/105143145/8aec053f-3f7b-46ef-80de-0531db8b9a30)
