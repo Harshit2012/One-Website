@@ -211,3 +211,7 @@ window.addEventListener('scroll', () => {
       text.classList.remove('visible');
     }
 });
+
+$(window).load(function() {
+  $(".se-pre-con").fadeOut("slow");;
+});
