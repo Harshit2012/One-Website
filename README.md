@@ -16,5 +16,4 @@ A website that provide various games and websites.
 - Websites Page
 ![Screenshot (24)](https://github.com/Harshit2012/One-Website/assets/105143145/f2423ff0-9068-4c16-be9b-9991cb5b39ab)
 ## Live Demo
-Try the website by clicking [here](https://harshit2012.github.io/One-Website/)   
-Feel free to contribute  .
+Try the website by clicking [here](https://harshit2012.github.io/One-Website/)
