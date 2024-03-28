@@ -176,16 +176,23 @@ body {
 /* dynamic styling */
 
 ::-webkit-scrollbar {
-    width: 15px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #d1e5ff;
+  background: #1f2937;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#642bff, #ff22e6);
-    border-radius: 20px;
+  background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
 }
 
 @keyframes typing {
